@@ -109,7 +109,6 @@ header .navbar li a,
 .hero {
   border-bottom: 1.5px solid rgb(0 0 0 / 0.38);
   position: relative;
-  padding-block: 6rem;
   overflow: hidden;
 }
 
@@ -258,8 +257,15 @@ header .navbar li a,
 
 /* aside */
 
+.sticky {
+  position: sticky;
+  top: 100px;
+  z-index: 999;
+}
+
 aside {
   width: 350px;
+  position: relative;
 }
 
 aside h3 {
@@ -637,5 +643,9 @@ aside .side-menu li {
 
   .card {
     width: 33.333%;
+  }
+
+  .hero {
+    padding-block: 6rem;
   }
 }
