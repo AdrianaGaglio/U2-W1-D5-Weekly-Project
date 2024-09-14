@@ -257,12 +257,6 @@ header .navbar li a,
 
 /* aside */
 
-.sticky {
-  position: sticky;
-  top: 100px;
-  z-index: 999;
-}
-
 aside {
   width: 350px;
   position: relative;
@@ -596,6 +590,14 @@ aside .side-menu li {
   .hero .artwork {
     display: block;
     right: 0px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .sticky {
+    position: sticky;
+    top: 100px;
+    z-index: 999;
   }
 }
 
